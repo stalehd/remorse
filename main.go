@@ -11,8 +11,6 @@ import (
 	"strings"
 )
 
-var fileName = "main.go"
-
 func main() {
 	var fileName, style string
 	flag.StringVar(&fileName, "file", "main.go", "Source")
